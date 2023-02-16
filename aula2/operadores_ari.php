@@ -63,4 +63,4 @@ echo "Multiplicação $multi <br>";
 echo "Resto $resto <br>";
 echo "Potênciação $pot <br>";
 
-?>
+?> 

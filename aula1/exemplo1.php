@@ -7,7 +7,7 @@
     <title>Document</title>
 </head>
 <body>
-    <?php
+    <?php 
         for($c = 1; $c <= 50; $c = $c + 1){
     ?>
         <img 

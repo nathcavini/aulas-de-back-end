@@ -76,4 +76,4 @@ if($nota_do_murilo >=6){
 }else{
     echo"Murilo foi reprovado";
 }
-?>
+?> 

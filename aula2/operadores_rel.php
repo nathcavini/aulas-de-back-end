@@ -24,6 +24,6 @@
 </p>
 
 <?php
-    $valor = 10 > 10;
+    $valor = 10 >= 10;
     var_dump($valor);
 ?>
