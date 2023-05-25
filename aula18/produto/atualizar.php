@@ -24,4 +24,4 @@
     $comando->execute();
 };
     //Abre o arquivo form.php
-    header("location: form.php");
+    header("location: index.php");
