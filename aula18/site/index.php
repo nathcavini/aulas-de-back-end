@@ -44,7 +44,7 @@
     </div>
   </div>
 </nav>
-     <!--Final do Carousel-->
+     <!--Final do Menu-->
 <hr>
      <!--Lista de Produtos-->
      <div class="container">
