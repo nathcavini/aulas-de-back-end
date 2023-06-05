@@ -20,7 +20,7 @@
                 $categorias[] = $value["categoria"];
           ?>
         <li class="nav-item">
-          <a class="nav-link" href="#"><?php echo $value["categoria"] ?> </a>
+          <a class="nav-link" href="index.php?categoria=<?= $value["categoria"]; ?>"><?= $value["categoria"]; ?></a>
         </li>
 
         <?php 
