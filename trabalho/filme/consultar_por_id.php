@@ -1,15 +1,16 @@
 <?php
 
-require_once "conexao.php";
+//Importa o arquivo para a conexão com o BD
+require_once "../conexao.php";
 
-//Verifica se foi enviafo o param id pela URL
+//Verifica se foi enviado o param id pela URL
 if(isset($_GET['id'])){
 
 //Pega o valor do id que foi enviado pela URL
 $id = $_GET['id'];
 
 //String com o comando SQL para ser executado no DB
-$sql = "SELECT * FROM `filmes` WHERE  `idproduto`= ? ;";
+$sql = "SELECT * FROM `filmes` WHERE  `idfilme`= ? ;";
 
 //Prepara o SQL para ser executado no banco de dados
 $comando = $conexao->prepare($sql);
@@ -24,6 +25,6 @@ $comando->execute();
 $resultado = $comando->get_result();
 
 //pegar a primeira linha de resultado
-$produto = $resultado->fetch_assoc();
+$filme = $resultado->fetch_assoc();
 
 }

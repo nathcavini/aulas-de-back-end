@@ -1,6 +1,6 @@
-<?php require_once "../controla_sessao/controla.php"; ?>
 <?php
 
+//Importa o arquivo para a conexão com o BD
 require_once "../conexao.php";
 
 //Verifica se foi enviafo o param id pela URL
@@ -10,7 +10,7 @@ if(isset($_GET['id'])){
 $id = $_GET['id'];
 
 //String com o comando SQL para ser executado no DB
-$sql = "DELETE FROM `produto` WHERE  `idproduto`= ? ;";
+$sql = "DELETE FROM `filmes` WHERE  `idfilme`= ? ;";
 echo $sql;
 
 //Prepara o SQL para ser executado no banco de dados
